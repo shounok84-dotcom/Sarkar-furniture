@@ -7,6 +7,20 @@
     <style>
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            @keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.section {
+  animation: fadeIn 1s ease;
+}
             margin: 0;
             padding: 0;
             background-color: #121212;
@@ -23,7 +37,10 @@
             margin: 0;
             font-size: 3em;
             letter-spacing: 2px;
-            color: #ffffff;
+            color: #ffffff;h1{
+  color:white;
+  text-shadow:0 0 10px cyan;
+}
         }
         header p {
             font-size: 1.2em;
@@ -86,8 +103,8 @@
 <body>
 
     <header>
-        <h1>শৌনক সরকার</h1>
-        <p>আমার ওয়েবসাইটে আপনাকে স্বাগত</p>
+        <h1>Shounok sarkar</h1>
+        <p>Welcome to my official website</p>
     </header>
 
     <div class="container">
